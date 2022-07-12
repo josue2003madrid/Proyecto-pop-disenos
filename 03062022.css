@@ -1,41 +1,54 @@
+html{
+    background-color: rgb(168, 224, 243);
+}
 header{
-    background: linear-gradient(to right, #48b6ff 0%, #fa5039 100%);
+    background:  #ffc3c9;
+    display: flex;
+
 }
 nav{
-    background: rgb(250, 110, 203);
-    position: static;
+    background: rgb(245, 144, 161);
+    position: left;
 }
 article{
-    background: rgba(235, 69, 132, 0.192);
+    background: white;
     list-style-position: ini;
+    position: center;
 }
 aside{
-    background: #ccf;
-    float:left;
+    background: black;
+    float:center;
+}
+.logos{
+    display: flex;
+}
+.logos img{
+    height: 50px;
 }
 
 article.carousel-inner{
     height: 100%;
     width: 100%;
-    background-color: #f2f1ee;
+    background-color: #caab4f;
     border: 1 solid#000;
     padding: 20px;
     text-align: center;
     margin: bottom 20px;
     margin-top: 20px;
     margin-left: 50px;
-    float:left;
+    float:center;
     position: center;
 }
 footer{
-    background: linear-gradient(to right, #48b6ff 0%, #fa5039 100%);
+    background: #ffc3c9;
+    font-family: "Lucida Bright" serif;
     padding: 1em;
     text-align: center;
     margin-top: auto;
 
 }
 body{
-    background-color: #000;
+  color: rgb(231, 17, 17);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -44,4 +57,13 @@ body{
 iframe, section{
     min-height: 100vh;
     position: center;
+}
+a{
+    text-decoration-color: #000;
+}
+div{
+    text-decoration-color: #000;
+}
+h1{
+ text-align: center;
 }

@@ -1,0 +1,48 @@
+ html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+   color: #cf646f;
+}
+
+
+header, footer{
+   display: block;
+    min-height: 10%;
+    background: #ffc3c9;
+    font-family: fantasy;
+    padding: 1em; 
+    text-align: center;
+    margin-top: auto;
+
+}
+h1{
+    text-align: center;
+}
+
+article{
+    background: rgb(136, 206, 238);
+    
+    position: center;
+    margin-left: 350px;
+
+}
+aside{
+    background:#CCF ;
+    flex: 20%;
+}
+article.carousel-inner{
+    height: 100%;
+    width: 100%;
+    background-color: #caab4f;
+    border: 1 solid#000;
+    padding: 20px;
+    text-align: center;
+    margin: bottom 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float:center;
+    position: center
+    ;}
